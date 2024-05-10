@@ -31,6 +31,8 @@ class Stack {
         if (isEmpty ()){
             cout << "Stack is empty " << endl;
         }
+        cout << "Poppes value: " << top->data << endl;
+        top = top->next;
     }
 };
 
