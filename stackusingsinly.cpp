@@ -68,7 +68,7 @@ int main(){
 
         switch(choice) {
         case 1:
-            cout << "Enter the valude to push: ";
+            cout << "Enter the value to push: ";
             cin >> value;
             stack.push(value);
             break;
@@ -87,7 +87,16 @@ int main(){
             cout << "Stack is empty. No top value." << endl;
         }
         break;
+        case 4:
+            cout << "Exiting program." << endl;
+            break;
+        default: 
+            cout << "Invalid choice. Try again." << endl;
+            break;
         }
+
+        cout << endl;
     }
+    return 0;
 }
 
